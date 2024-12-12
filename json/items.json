@@ -1,0 +1,43 @@
+[
+  {
+    "id": "joyeuse",
+    "copy-from": "longsword",
+    "type": "TOOL",
+
+    "//sources": [
+      ["http://myarmoury.com/feature_charlemagne.html", "dimensions"]
+    ],
+
+    "name": {
+      "str": "Joyeuse"
+    },
+    "description": "The legendary sword of Charlemagne, used for ceremonial purposes in France throughout the centuries.  How it ended up in New England is a mystery.  You can sense it calling you to slay your opponents.",
+
+    "weight": "1630 g",
+    "//dimensions": {
+      "area": "60.56 in2",
+      "height": "1.6 in",
+      "raw": "1587.84 ml",
+      "trim": 0,
+      "notes": [
+        "height approximated from visual reference",
+        "the pommel is stated to be 2.1 in. tall"
+      ]
+    },
+    "volume": "1588 ml",
+    "longest_side": "978 mm",
+
+    "color": "magenta",
+
+    "repairs_with": ["mc_steel"],
+
+    "weapon_category": ["LONG_SWORDS", "LONG_THRUSTING_SWORDS", "JOYEUSE"],
+
+    "relic_data": {
+      "passive_effects": [{ "id": "ENCH_JOYEUSE" }]
+    },
+
+    "price": "100000000 USD",
+    "price_postapoc": "60 USD"
+  }
+]

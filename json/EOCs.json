@@ -1,0 +1,37 @@
+[
+  {
+    "id": "Joyeuse_EOC_ON_KILL",
+    "type": "effect_on_condition",
+    "eoc_type": "EVENT",
+    "required_event": "character_kills_monster",
+
+    "condition": { "u_has_wielded_with_weapon_category": "JOYEUSE" },
+    "effect": [
+      { "math": ["joyeuse_glory", "+=", "_exp"] },
+      {
+        "message": "Joyeuse glory: <global_val:joyeuse_glory>",
+        "type": "debug"
+      }
+    ]
+  },
+  {
+    "id": "Joyeuse_EOC_ON_KILL_NPC",
+    "type": "effect_on_condition",
+    "eoc_type": "EVENT",
+    "required_event": "character_kills_character",
+
+    "//": [
+      "NPC kills are valued at a constant 10 XP by the game",
+      "https://github.com/CleverRaven/Cataclysm-DDA/blob/0.H-branch/src/kill_tracker.cpp#L133"
+    ],
+
+    "condition": { "u_has_wielded_with_weapon_category": "JOYEUSE" },
+    "effect": [
+      { "math": ["joyeuse_glory", "+=", "10"] },
+      {
+        "message": "Joyeuse glory: <global_val:joyeuse_glory>",
+        "type": "debug"
+      }
+    ]
+  }
+]

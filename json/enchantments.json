@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ENCH_JOYEUSE",
+    "type": "enchantment",
+
+    "condition": "ALWAYS",
+    "has": "WIELD",
+
+    "values": [
+      {
+        "value": "ITEM_DAMAGE_CUT",
+        "add": { "math": ["joyeuse_glory / 100"] }
+      },
+      {
+        "value": "ITEM_DAMAGE_BASH",
+        "add": { "math": ["joyeuse_glory / 400"] }
+      }
+    ]
+  }
+]

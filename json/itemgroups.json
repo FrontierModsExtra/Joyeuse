@@ -1,0 +1,102 @@
+[
+  {
+    "id": "antique_rare",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "//changes": ["added rare Joyeuse spawn"],
+
+    "entries": [
+      { "item": "helmet_army_outdated", "prob": 5 },
+      { "item": "spiral_stone", "prob": 2 },
+      { "item": "kris", "prob": 2 },
+      { "item": "cavalry_sabre_fake", "prob": 2 },
+      { "item": "glaive", "prob": 2 },
+      { "item": "naginata_fake", "prob": 2 },
+      { "item": "naginata_inferior", "prob": 3 },
+      { "item": "estoc_fake", "prob": 6 },
+      { "item": "qiang", "prob": 3 },
+      { "item": "halberd", "prob": 2 },
+      { "item": "halberd_fake", "prob": 7 },
+      { "item": "lucern_hammer", "prob": 2 },
+      { "item": "lucern_hammerfake", "prob": 7 },
+      { "item": "katana_fake", "prob": 4 },
+      { "item": "katana_inferior", "prob": 8 },
+      { "item": "zweihander_fake", "prob": 4 },
+      { "item": "zweihander_inferior", "prob": 8 },
+      { "item": "cutlass_fake", "prob": 4 },
+      { "item": "cutlass_inferior", "prob": 8 },
+      { "item": "jian_fake", "prob": 4 },
+      { "item": "jian_inferior", "prob": 8 },
+      { "item": "scimitar_fake", "prob": 8 },
+      { "item": "arming_sword_fake", "prob": 8 },
+      { "item": "broadsword_fake", "prob": 4 },
+      { "item": "broadsword_inferior", "prob": 8 },
+      { "item": "longsword_fake", "prob": 4 },
+      { "item": "longsword_inferior", "prob": 8 },
+      { "item": "rapier_fake", "prob": 4 },
+      { "item": "cavalry_sabre_fake", "prob": 4 },
+      { "item": "wakizashi_fake", "prob": 4 },
+      { "item": "wakizashi_inferior", "prob": 8 },
+      { "item": "kris_fake", "prob": 8 },
+      { "item": "pistol_flintlock", "prob": 4 },
+      { "item": "carbine_flintlock", "prob": 4 },
+      { "item": "rifle_flintlock", "prob": 4 },
+      { "item": "petrified_eye", "prob": 2 },
+      { "item": "ji", "prob": 1 },
+      { "item": "dao", "prob": 3 },
+      { "item": "sword_xiphos", "prob": 4 },
+      { "item": "khopesh", "prob": 4 },
+      { "item": "spear_dory", "prob": 3 },
+      { "item": "knife_baselard", "prob": 3 },
+
+      { "item": "joyeuse", "prob": 1 }
+    ]
+  },
+  {
+    "id": "sca_smith_weapons",
+    "type": "item_group",
+    "subtype": "distribution",
+
+    "//changes": [
+      "replaced `longsword` spawn with a mixed longsword/Joyeuse spawn"
+    ],
+
+    "entries": [
+      { "item": "katana", "prob": 1 },
+      { "item": "cestus", "prob": 1 },
+      { "item": "mace", "prob": 3 },
+      { "item": "morningstar", "prob": 3 },
+      { "item": "glaive", "prob": 2 },
+      { "item": "rapier", "prob": 2 },
+      { "item": "cavalry_sabre", "prob": 2 },
+      { "item": "estoc", "prob": 2 },
+      { "item": "cutlass", "prob": 2 },
+      { "item": "scimitar", "prob": 2 },
+      { "item": "arming_sword", "prob": 4 },
+      { "item": "broadsword", "prob": 4 },
+      { "item": "zweihander", "prob": 2 },
+      { "item": "battleaxe", "prob": 2 },
+      { "item": "warhammer", "prob": 2 },
+      { "item": "halberd", "prob": 4 },
+      { "item": "lucern_hammer", "prob": 2 },
+      { "item": "pike", "prob": 2 },
+      { "item": "spear_steel", "prob": 2 },
+      { "item": "shillelagh_weighted", "prob": 1 },
+      { "item": "nodachi", "prob": 1 },
+      { "item": "knife_baselard", "prob": 2 },
+      { "item": "q_staff", "prob": 1 },
+      { "item": "i_staff", "prob": 2 },
+      { "item": "bagh_nakha", "prob": 1 },
+      { "item": "kris", "prob": 1 },
+
+      {
+        "distribution": [
+          { "item": "longsword", "prob": 99 },
+          { "item": "joyeuse", "prob": 1 }
+        ],
+        "prob": 3
+      }
+    ]
+  }
+]
