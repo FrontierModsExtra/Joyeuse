@@ -1,0 +1,17 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "joyeuse",
+
+    "name": "Joyeuse",
+    "description": "Adds the legendary sword Joyeuse, with a twist",
+
+    "authors": ["Hyperseeker"],
+
+    "category": "items",
+
+    "dependencies": ["dda"],
+
+    "path": "json"
+  }
+]
