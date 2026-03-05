@@ -5,7 +5,8 @@
     "type": "TOOL",
 
     "//sources": [
-      ["http://myarmoury.com/feature_charlemagne.html", "dimensions"]
+      ["http://myarmoury.com/feature_charlemagne.html", "dimensions"],
+      ["https://www.outfit4events.com/eur/product/8838-charles-the-great-personal-sword-joyeuse/", "blade thickness"]
     ],
 
     "name": {
@@ -14,18 +15,32 @@
     "description": "The legendary sword of Charlemagne, used for ceremonial purposes in France throughout the centuries.  How it ended up in New England is a mystery.  You can sense it calling you to slay your opponents.",
 
     "weight": "1630 g",
-    "//dimensions": {
-      "area": "60.56 in2",
-      "height": "1.6 in",
-      "raw": "1587.84 ml",
-      "trim": 0,
-      "notes": [
-        "height approximated from visual reference",
-        "the pommel is stated to be 2.1 in. tall"
-      ]
-    },
-    "volume": "1588 ml",
-    "longest_side": "978 mm",
+    "//dimensions": [
+      {
+        "type": "area",
+        "description": "hilt",
+
+        "area": "10840 mm2",
+        "height": "1.26 in",
+        "raw": "346.92 ml",
+        "trim": 0,
+        "notes": [
+          "height approximated from visual reference, based on the relation of the grip to the pommel",
+          "the pommel is stated to be 2.1 in. tall",
+          "we assume everything evens out throughout the hilt"
+        ]
+      },
+      {
+        "type": "area",
+        "description": "blade",
+
+        "area": "31736 mm2",
+        "height": "4.9 mm",
+        "raw": "155.51 ml"
+      }
+    ],
+    "volume": "502 ml",
+    "longest_side": "105 cm",
 
     "color": "magenta",
 
